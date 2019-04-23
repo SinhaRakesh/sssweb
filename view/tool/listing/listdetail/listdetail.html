@@ -1,0 +1,266 @@
+<div id="{$_name}" class="{$class} properties" style="{$style}">
+	{$Content}
+
+	<div class="carousel_in">
+		{slider_image_1_wrapper}
+		  	<div>
+		    	<img src="{$slider_image_1}" alt="">
+		    	<div class="caption"><h3>{$title}</h3></div>
+		  	</div>
+	  	{/}
+	  	{slider_image_2_wrapper}
+	  		<div>
+	  			<img src="{$slider_image_2}" alt="">
+	  			<div class="caption"><h3>{$title}</h3></div>
+	  		</div>
+	  	{/}
+	  	{slider_image_3_wrapper}
+	  		<div>
+	  			<img src="{$slider_image_3}" alt="">
+	  			<div class="caption"><h3>{$title}</h3></div>
+	  		</div>
+	  	{/}
+	  	
+	  	{slider_image_4_wrapper}
+	  		<div>
+	  			<img src="{$slider_image_4}" alt="">
+	  			<div class="caption"><h3>{$title}</h3></div>
+	  		</div>
+	  	{/}
+
+	  	{slider_image_5_wrapper}
+	  		<div>
+	  			<img src="{$slider_image_5}" alt="">
+	  			<div class="caption"><h3>{$title}</h3></div>
+	  		</div>
+	  	{/}
+	  	{slider_image_6_wrapper}
+	  		<div>
+	  			<img src="{$slider_image_6}" alt="">
+	  			<div class="caption"><h3>{$title}</h3></div>
+	  		</div>
+	  	{/}
+	  	{slider_image_7_wrapper}
+	  		<div>
+	  			<img src="{$slider_image_7}" alt="">
+	  			<div class="caption"><h3>{$title}</h3></div>
+	  		</div>
+	  	{/}
+	  	{slider_image_8_wrapper}
+	  		<div>
+	  			<img src="{$slider_image_8}" alt="">
+	  			<div class="caption"><h3>{$title}</h3></div>
+	  		</div>
+	  	{/}
+	  	{slider_image_9_wrapper}
+	  		<div>
+	  			<img src="{$slider_image_9}" alt="">
+	  			<div class="caption"><h3>{$title}</h3></div>
+	  		</div>
+	  	{/}
+	  	{slider_image_10_wrapper}
+	  		<div>
+	  			<img src="{$slider_image_10}" alt="">
+	  			<div class="caption"><h3>{$title}</h3></div>
+	  		</div>
+	  	{/}
+	  	{slider_image_11_wrapper}
+	  		<div>
+	  			<img src="{$slider_image_11}" alt="">
+	  			<div class="caption"><h3>{$title}</h3></div>
+	  		</div>
+	  	{/}
+	  	{slider_image_12_wrapper}
+	  		<div>
+	  			<img src="{$slider_image_12}" alt="">
+	  			<div class="caption"><h3>{$title}</h3></div>
+	  		</div>
+	  	{/}
+	</div>
+
+	<h1 class="main_title_in">
+		{$title} <span class="label label-info theme-bg-color">{$property_type} - {$property_status}</span>
+		<p style="font-size:18px;margin-top:18px; "><i class=" icon_set_1_icon-41"></i>&nbsp;{$address} {$city} {$state}</p>
+	</h1>
+
+	<div class="container add_bottom_60">
+        
+        <div class="row">
+        	<div class="col-md-8">
+        		{price_wrapper}
+	            <div class="row">
+					<div class="col-md-3">
+						<h3>Price</h3>
+	                </div>
+	                <div class="col-md-9">
+	                	<h3><i class="label label-info theme-bg-color" style="font-size:20px;">Rs. {$price}</i></h3>
+	                </div>
+	            </div>
+	            <hr>
+	            {/}
+
+	            {area_wrapper}
+	            <div class="row">
+					<div class="col-md-3">
+						<h3>Area</h3>
+	                </div>
+	                <div class="col-md-9">
+	                	<h3><i class="label label-info theme-bg-color" style="font-size:20px;">{$area} /sqft</i></h3>
+	                </div>
+	            </div>
+	            <hr>
+	            {/}
+	            
+	            <div id="single_room_feat">
+	            	<h3>Features</h3>
+	                <ul>
+	                	{swimming_poolwrapper}
+	                    <li><i class=" icon_set_2_icon-110"></i><strong>Swimming Pool</strong></li>
+	                    {/}
+	                    {air_conditioning_wrapper}
+	                	<li><i class="icon_set_1_icon-7"></i><strong>Air Conditioning</strong></li>
+	                	{/}
+	                	{garden_wrapper}
+                    	<li><i class="icon_set_1_icon-24"></i><strong>Garden</strong></li>
+                    	{/}
+                    	{parking_wrapper}
+                    	<li><i class="icon_set_1_icon-21"></i><strong>Parking</strong></li>
+                    	{/}
+                    	{furnished_wrapper}
+                    	<li><i class=" icon_set_1_icon-8"></i><strong>Furnished</strong></li>
+                    	{/}
+                    	{bhk_wrapper}
+                    	<li><i class="icon_set_1_icon-4"></i><strong>{$bhk}</strong></li>
+                    	{/}
+	                </ul>
+	            </div>
+
+	            {building_age_wrapper}
+	            <div class="row">
+	            	<div class="col-md-3">
+	            	</div>
+	            	<div class="col-md-3">
+                    	<h4>{$property_type} Age</h4>
+                    	<div class="label label-info theme-bg-color" style="font-size:14px;">
+                    		{$building_age}
+                    	</div>
+                	</div>
+                	<div class="col-md-3">
+                    	<h4>Bedrooms</h4>
+                    	<div id="score_detail">
+                    		<span class="bg-golden">{$bedrooms}</span>
+                    	</div>
+                	</div>
+                	<div class="col-md-3">
+                    	<h4>Bathrooms</h4>
+                    	<div id="score_detail">
+                    		<span class="bg-golden">{$bathrooms}</span>
+                    	</div>
+                	</div>
+	            </div>
+	            <hr>
+	            {/}
+
+	            {description_wrapper}
+            	<div class="row">
+                	<div class="col-md-3">
+                    	<h3>Description</h3>
+                	</div>
+                	<div class="col-md-9">
+                    	{$description}
+                	</div>
+                	<!-- End col-md-9  -->
+            	</div>
+	          	<hr>
+            	{/}
+
+            	{policies_wrapper}
+	            <div class="row">
+	            	<div class="col-md-3">
+	                    <h3>Policies</h3>
+	                </div>
+	                <div class="col-md-9">
+	                	{$policies}
+	                </div>
+	            </div>
+	            <hr>
+	            {/}
+
+	            {location}
+	            <div class="row">
+	            	<div class="col-md-3">
+	                    <h3>Location</h3>
+	                </div>
+	                <div class="col-md-9">
+	                	<h4>{$address}</h4><hr>
+	                	<div class="row">
+	                		<div class="col-md-4">
+			                	<h4>{$city}</h4>
+		                    	City
+	                		</div>
+	                		<div class="col-md-4">
+			                	<h4>{$state}</h4>
+		                    	State
+	                		</div>
+	                		<div class="col-md-4">
+			                	<h4>{$zip_code}</h4>
+		                    	Zipcode
+	                		</div>
+	                	</div>
+	                </div>
+	            </div>
+	            {/}
+            </div><!-- End col -->
+            
+           
+            <div class="col-md-4" id="sidebar">
+	            <div class="theiaStickySidebar">
+	            	<div class="box_style_1">
+	                    <div id="message-booking"></div>
+	                    {$customform}
+	                </div>
+	                <!-- End box_style -->
+	                <div style="height: 250px;">
+	                <img src="websites/realtors/www/images/ad300x250.png">
+	                </div>
+	            </div><!-- End theiaStickySidebar -->
+            </div><!-- End col -->
+        </div><!-- End row -->
+               
+        
+    </div><!-- End container -->
+
+    <script src="websites/realtors/www/js/theia-sticky-sidebar.js"></script>
+    <script>
+    $(document).ready(function(){
+    	$('.carousel_in').owlCarousel({
+		    center: true,
+		    items:1,
+		    loop:true,
+			 autoplay:true,
+			 navText: [ '', '' ],
+			addClassActive: true,
+		    margin:5,
+		    responsive:{
+		        600:{
+		            items:1
+		        },
+				 1000:{
+		            items:2,
+					nav:true,
+		        }
+		    }
+		});
+
+	    
+	    $('#sidebar').theiaStickySidebar({
+	      additionalMarginTop: 200
+	    });
+    });
+	</script>
+<style type="text/css">
+	.carousel_in img{
+		height: 330px;
+	}
+</style>
+</div>

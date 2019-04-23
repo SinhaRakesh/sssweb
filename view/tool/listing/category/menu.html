@@ -1,0 +1,15 @@
+<div id="{$_name}" class="{$class} main-menu" style="{$style}">
+	{category_list}
+	<ul>
+	{rows}
+	{row}
+  	<li class="{$submenu_class}">
+      <a href="{$url}" class="">{$name}&nbsp;{$submenu_icon}
+      </a>
+      {$nested_category}
+    </li>
+    {/}{/}
+  </ul>
+  {/}
+  {$Content}
+</div> 

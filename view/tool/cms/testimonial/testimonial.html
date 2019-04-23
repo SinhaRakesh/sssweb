@@ -1,0 +1,20 @@
+<div id="{$_name}" class="{$class} xepan-testimonial xepan-testimonial">
+    <div class="slider-wrapper owl-theme owl-carousel">
+      {rows}{row}
+        <div class="box_overlay">
+          <div class="pic">
+            {image_wrapper}
+              <figure><img src="{$image}" alt="{$name}" class="img-circle"></figure>
+            {/}
+            <h4 style="color:#9c090b;">{$contact}<small>{$created_date}</small></h4>
+            {$rating}
+          </div>
+          <div class="comment">
+            {title_wrapper}<h3 class="goldencolor">{$name}</h3>{/}
+            {description_wrapper}<div style="min-height: 50px;">{$description}</div>{/}
+          </div>
+          {$Content}
+        </div>
+      {/}{/}
+    </div>
+</div>

@@ -1,0 +1,43 @@
+<div class="{$class}" style="{$style}" id="{$_name}">
+    {$grid_buttons}
+    {$header}
+    <div class="row">
+    {rows}{row}
+        <div class="col-md-4 col-sm-12 col-xs-12 col-lg-4">
+            <div class="item">
+                <div class="image">
+                    <a href="{$list_detail_page_url}">
+                        <div class="overlay">
+                            <div class="inner">
+                                <div class="content">
+                                    <h4>Description</h4>
+                                    <p>{$description}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-specific">
+                            <div class="tooltip_styled tooltip-effect-4">
+                                <span class="tooltip-item">
+                                    <i class=" icon_set_1_icon-3" style="color:white;">Area:&nbsp; {$area} Sqft</i>
+                                </span>
+                                <div class="tooltip-content">
+                                    Area: {$area} Sqft
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icon"><i><b>{$property_status}</b></i></div>
+                        <div class="iconleft"><strong>Featured</strong></div>
+                        <img src="{$profile_image}" alt="" onerror="this.src='websites/realtors/www/images/no-image-placeholder-small.png'">
+                    </a>
+                </div>
+                <div class="wrapper">
+                    <a href="{$list_detail_page_url}"><h3>{$title}</h3></a>
+                    <h4>Rs. {$price}</h4>
+                </div>
+            </div>
+        </div>
+    {/}{/}
+    </div>
+    {not_found}{$not_found_message}{/}
+    {$Paginator}
+</div>

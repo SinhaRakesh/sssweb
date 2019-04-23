@@ -1,0 +1,53 @@
+<div class="{$class}" style="{$style}" id="{$_name}">
+    <div class="homeslider carousel_in">
+    {rows}{row}
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                <div class="item">
+                <a href="{$list_detail_page_url}" target="_blank">
+                    <div class="image">
+                        <div class="item-specific caption">
+                            <h3 >
+                                <button class="btn btn-theme btn-lg">Rs. {$price}</button><br/>
+                                {$property_type} {$property_status}
+                                <br/>
+                                <i class="icon-location-2"></i>{$address} {$city} {$state}
+                            </h3>
+                            <p>View Details <i class="icon-right-open-3" style="color: #9c090b;"></i></p>
+                        </div>
+                        <img src="{$profile_image}" alt="" propertytype="{$property_status}" onerror="defaultSliderImage(this);">
+
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    {/}{/}
+    </div>
+    {not_found}{/}
+
+    <script>
+    $(document).ready(function(){
+        $('.carousel_in').owlCarousel({
+                center: true,
+                items:1,
+                loop:true,
+                autoplay:true,
+                stopOnHover : true,
+                navText: [ '', '' ],
+                navigation : false,
+                addClassActive: true,
+                margin:5,
+                responsive:{
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1,
+                        nav:true,
+                    }
+                }
+        });
+    });
+    </script>
+</div>
