@@ -451,3 +451,24 @@ footer{
 box-shadow:3px 5px 5px #0082ab;
 }
 /*services section end*/
+
+
+.pagetitle{
+  position: relative;
+  color: #ffffff;
+  padding: 35px 0px;
+  background-color: #262626;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+.pagetitle:before{
+  position: absolute;
+  content: '';
+  background: rgba(38, 38, 38, 0.82);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
