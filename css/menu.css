@@ -67,8 +67,8 @@
 
 .btn-outline:hover{
   background:#deb138;
-  color: #9c090b;
-  border:1px solid #9c090b;
+  color: #008fab;
+  border:1px solid #008fab;
   -webkit-transition:all 0.3s;
   -moz-transition:all 0.3s;
   transition:all 0.3s;
@@ -120,12 +120,12 @@
 .atk-form-field input:focus,
 .atk-form-field textarea:focus,
 .select2-container--focus,.select2-container--open{
-  border: 2px solid #9c090b !important;
+  border: 2px solid #008fab !important;
 }
 
 
 .contactform .atk-button{
-  background-color: #9c090b;
+  background-color: #008fab;
   padding: 10px;
   color: white;
   border:2px solid #deb138;
@@ -135,10 +135,10 @@
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 .contactform .atk-button:focus,.contactform .atk-button:hover{
-  background-color: #deb138;
-  border:2px solid #9c090b;
+  background-color: #008fab;
+  border:2px solid #f3f3f3;
   font-weight: bold;
-  color: #9c090b;
+  color: white;
 }
 
 .htmlblock iframe{
@@ -147,11 +147,11 @@
 
 
 .theme-color{
-  color:#9c090b;
+  color:#008fab;
 }
 
 .properties #single_room_feat i, #score_detail span{
-  color: #9c090b !important;
+  color: #008fab !important;
 }
 
 .ribbonbox {
